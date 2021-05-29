@@ -1,11 +1,11 @@
 {
-    "name": "Movie Catalogue Lite",
-    "short_name": "Movie Lite",
-    "description": "Free Catalogue Movie for you",
+    "name": "Ziva Resto",
+    "short_name": "Ziva Resto",
+    "description": "Restaurant Catalogue",
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#ffffff",
-    "theme_color": "#d84315",
+    "theme_color": "#D7AA2E",
     "icons": [
       {
         "src": "/icons/icon-72x72.png",
