@@ -8,6 +8,13 @@ class RestoSource {
     return responseJson.restaurants;
   }
 
+  static async searchResto(query) {
+    const response = await fetch(API_ENDPOINT.SEARCH(query));
+    const responseJson = await response.json();
+    console.log('search', responseJson);
+    return responseJson;
+  }
+
   static async detailResto(id) {
     const response = await fetch(API_ENDPOINT.DETAIL(id));
     const responseJson = await response.json();

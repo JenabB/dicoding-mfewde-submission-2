@@ -45,6 +45,13 @@
         grid-column-start: 1;
         grid-column-end: 3;
     }
+    .resto-reviews {
+        margin: 20px auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 0;
+        grid-row-gap: 0;
+    }
 }
 
 @media screen and (min-width: 800px) {

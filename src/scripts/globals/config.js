@@ -1,5 +1,4 @@
 const CONFIG = {
-  KEY: 'bb3adbee117f90173796752289a7ae37',
   BASE_URL: 'https://restaurant-api.dicoding.dev/',
   BASE_IMAGE_URL: 'https://restaurant-api.dicoding.dev/images/small/',
   DEFAULT_LANGUAGE: 'en-us',

@@ -204,3 +204,34 @@ footer p a {
     color: #db0000;
     text-decoration: none;
 }
+
+.table-menus {
+    display: flex;
+    justify-content: center;
+}
+
+.resto-reviews {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+}
+
+.card {
+    margin: 5px;
+    padding: 5px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card h1 {
+font-size: 15px;
+}
+
+.card h2 {
+ font-size: 12px;
+}
+
+.review-title {
+    text-align: center;
+}
