@@ -1,7 +1,7 @@
 import FavoriteRestoIdb from '../../data/favorite-resto-idb';
 import { createRestoItemTemplate } from '../templates/template-creator';
 
-const Like = {
+const Favorite = {
   async render() {
     return `
       <div class="content">
@@ -26,4 +26,4 @@ const Like = {
   },
 };
 
-export default Like;
+export default Favorite;
