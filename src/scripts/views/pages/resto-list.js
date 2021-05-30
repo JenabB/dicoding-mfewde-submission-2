@@ -5,9 +5,13 @@ const RestoList = {
   async render() {
     return `
     <div>
-    <div class="hero">
-    <h1>Ziva Resto</h1>
-    </div>
+    <div class="hero" style="background-image: url('/images/heros/hero-image_4.jpg');">
+    <div class="container">
+      <h1 class="hero__title">Ziva Restaurant</h1>
+        <p class="hero__tagline">various kinds of restaurant catalogs from various places</p>
+        <a href="#mainContent" class="btn" tabindex="6">Let's Check!</a>
+     </div>
+  </div>
       <div class="content">
         <h2 class="content__heading">Resto List</h2>
         <div id="restos" class="restos">

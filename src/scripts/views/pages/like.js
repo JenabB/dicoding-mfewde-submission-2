@@ -14,7 +14,6 @@ const Like = {
 
   async afterRender() {
     const restos = await FavoriteRestoIdb.getAllRestos();
-    console.log('restolike', restos);
     const restosContainer = document.querySelector('#restos');
     restos.forEach((resto) => {
       restosContainer.innerHTML += createRestoItemTemplate(resto);
