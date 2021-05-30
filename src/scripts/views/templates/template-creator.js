@@ -13,6 +13,8 @@ const createRestoDetailTemplate = (resto) => `
           <p>${resto.rating}</p>
           <h4>City</h4>
           <p>${resto.city}</p>
+          <h4>Address</h4>
+          <p>${resto.address}</p>
       <div>
 
     <h4>Menus</h4>
@@ -67,12 +69,10 @@ const createRestoItemTemplate = (resto) => `
     <div class="resto-item__header">
         <img class="resto-item__header__poster" alt="${resto.name}"
             src="${CONFIG.BASE_IMAGE_URL}${resto.pictureId}">
-        <div class="resto-item__header__rating">
-            <p>⭐️<span class="resto-item__header__rating__score">${resto.rating}</span></p>
-        </div>
     </div>
     <div class="resto-item__content">
         <h1><a href="${`/#/detail/${resto.id}`}">${resto.name}</a></h1>
+        <p>⭐️<span class="resto-item__header__rating__score">${resto.rating}</span></p>
         <h2>${resto.city}</h2>
         <p>${resto.description}</p>
     </div>
@@ -91,9 +91,22 @@ const createLikedButtonTemplate = () => `
   </button>
 `;
 
+const createPageLoaderTemplate = {
+  show() {
+    return `
+      <div class="page-loader">
+      <h1>Loading...</h1></div>
+    `;
+  },
+  remove() {
+    document.querySelector('.page-loader').remove();
+  },
+};
+
 export {
   createRestoItemTemplate,
   createRestoDetailTemplate,
   createLikeButtonTemplate,
   createLikedButtonTemplate,
+  createPageLoaderTemplate,
 };
