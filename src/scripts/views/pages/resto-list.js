@@ -13,7 +13,7 @@ const RestoList = {
      </div>
   </div>
       <div class="content">
-        <h2 class="content__heading">Resto List</h2>
+        <h2 class="content__heading">Catalogue</h2>
         <div id="restos" class="restos">
         </div>
       </div>

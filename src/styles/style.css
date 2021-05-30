@@ -133,13 +133,14 @@ main {
 }
 
 .content {
+    width: 80%;
     padding: 32px;
     margin: 0 auto;
     min-height: 100%;
 }
 
 .content .content__heading {
-    font-weight: normal;
+    text-align: center;
 }
 
 /* restos */
@@ -164,6 +165,7 @@ main {
 
 .resto-item .resto-item__header .resto-item__header__poster {
     width: 100%;
+    height: 200px;
 }
 
 .resto-item .resto-item__header .resto-item__header__rating {
@@ -185,11 +187,12 @@ main {
 }
 
 .resto-item .resto-item__content h1 {
-    margin: 0 0 10px 0;
+    margin: 0 0 0px 0;
 }
 
 .resto-item .resto-item__content h1 a {
     color: #db0000;
+    font-size: 18px;
     text-decoration: none;
 }
 
@@ -283,4 +286,19 @@ font-size: 15px;
 
 .review-title {
     text-align: center;
+}
+
+#empty-favorite {
+    padding: 200px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+#empty-favorite a {
+    margin-left: 5px;
+    padding: 2px 5px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
 }
