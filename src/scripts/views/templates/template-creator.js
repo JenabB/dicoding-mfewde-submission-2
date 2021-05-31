@@ -77,7 +77,7 @@ const createRestoItemTemplate = (resto) => `
         <p>${resto.description}</p>
     </div>
   </div>
-  `;
+`;
 
 const createLikeButtonTemplate = () => `
   <button aria-label="like this resto" id="likeButton" class="like">
@@ -91,22 +91,9 @@ const createLikedButtonTemplate = () => `
   </button>
 `;
 
-const createPageLoaderTemplate = {
-  show() {
-    return `
-      <div class="page-loader">
-      <h1>Loading...</h1></div>
-    `;
-  },
-  remove() {
-    document.querySelector('.page-loader').remove();
-  },
-};
-
 export {
   createRestoItemTemplate,
   createRestoDetailTemplate,
   createLikeButtonTemplate,
   createLikedButtonTemplate,
-  createPageLoaderTemplate,
 };
