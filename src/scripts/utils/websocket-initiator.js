@@ -9,6 +9,7 @@ const WebSocketInitiator = {
 
   onMessageHandler(message) {
     const resto = JSON.parse(message.data);
+    console.log('notif', resto);
     NotificationHelper.sendNotification({
       title: `${resto.name} is on cinema!`,
       options: {

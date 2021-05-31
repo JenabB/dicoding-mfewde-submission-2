@@ -7,7 +7,7 @@ const CONFIG = {
   DATABASE_NAME: 'ziva-resto-database',
   DATABASE_VERSION: 1,
   OBJECT_STORE_NAME: 'restos',
-  WEB_SOCKET_SERVER: 'wss://stormy-badlands-06326.herokuapp.com',
+  // WEB_SOCKET_SERVER: 'wss://restaurant-api.dicoding.dev/list',
 };
 
 export default CONFIG;
