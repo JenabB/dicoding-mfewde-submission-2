@@ -1,7 +1,7 @@
 {
     "name": "Ziva Resto",
     "short_name": "Ziva Resto",
-    "description": "Restaurant Catalogue",
+    "description": "Catalogue Restaurant",
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#ffffff",

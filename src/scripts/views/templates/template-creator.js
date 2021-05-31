@@ -17,7 +17,7 @@ const createRestoDetailTemplate = (resto) => `
           <p>${resto.address}</p>
       <div>
 
-    <h4>Menus</h4>
+    <h4 class="menu-table-title">Menus</h4>
         <div class="table-menus">
             <table>
             <tr>

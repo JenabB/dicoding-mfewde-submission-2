@@ -165,7 +165,7 @@ main {
 
 .resto-item .resto-item__header .resto-item__header__poster {
     width: 100%;
-    height: 300px;
+    height: 200px;
 }
 
 .resto-item .resto-item__header .resto-item__header__rating {
@@ -215,14 +215,37 @@ main {
     gap: 18px 16px;
 }
 
+.resto__title {
+    color: #8b0000;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
 .resto .resto__poster {
     width: 100%;
-    max-width: 400px;
+}
+
+.resto__info {
+margin: 20px 0;
+padding: 32px;
+}
+
+.menu-table-title {
+    margin: 10px 0px;
+    text-align: center;
 }
 
 .resto .resto__info h4 {
     margin: 8px 0;
 }
+
+.resto__overview {
+text-align: center;
+padding: 32px;
+}
+
+
 
 /* Like */
 .like {
@@ -286,6 +309,8 @@ font-size: 15px;
 
 .review-title {
     text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 #empty-favorite {

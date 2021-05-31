@@ -58,6 +58,12 @@
     }
 }
 
+@media screen and (max-width: 700px) {
+    .resto-item .resto-item__header .resto-item__header__poster {
+        height: 250px;
+    }
+}
+
 @media screen and (min-width: 800px) {
     .app-bar .app-bar__brand h1 {
         font-size: 2em;
