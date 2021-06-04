@@ -281,18 +281,21 @@ padding: 32px;
 
 /* Footer */
 footer {
-    padding: 16px;
-}
-
-footer p {
+    padding: 2em;
     text-align: center;
-    color: #aaaaaa;
-}
-
-footer p a {
-    color: #db0000;
-    text-decoration: none;
-}
+  }
+  
+  footer ul {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+  
+  footer li {
+    margin: 0.3em 0;
+    font-size: 14px;
+  }
 
 .table-menus {
     display: flex;
@@ -340,4 +343,17 @@ font-size: 15px;
     background-color: red;
     color: white;
     text-decoration: none;
+}
+
+#hamburgerButton {
+    padding: 10px;
+}
+
+.app-bar .app-bar__navigation ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    margin-bottom: 5px;
+    width: 100%;
 }

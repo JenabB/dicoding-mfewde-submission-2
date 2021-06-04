@@ -10,7 +10,7 @@ const RestoList = {
     <div class="container">
       <h1 class="hero__title">Ziva Restaurant</h1>
         <p class="hero__tagline">various kinds of restaurant catalogs from various places</p>
-        <a href="#mainContent" class="btn" tabindex="6">Let's Check!</a>
+        <a href="#mainContent" class="btn">Let's Check!</a>
      </div>
   </div>
       <div class="content">
