@@ -92,6 +92,8 @@ body {
     align-items: center;
     min-height: 380px;
     width: 100%;
+    background-color: #FF4D4D;
+    background-blend-mode: multiply;
     background-size: cover;
     text-align: center;
     background-position: center;
@@ -357,3 +359,26 @@ font-size: 15px;
     margin-bottom: 5px;
     width: 100%;
 }
+
+.loader {
+    
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #FF4D4D;
+    width: 120px;
+    margin: 20px auto;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

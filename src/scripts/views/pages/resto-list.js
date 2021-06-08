@@ -15,7 +15,7 @@ const RestoList = {
   </div>
       <div class="content">
         <h2 class="content__heading">Catalogue</h2>
-        <h1 id="loading-resto">Loading....</h1>
+       <div class="loader"></div>
         <div id="restos" class="restos">
         </div>
       </div>
@@ -27,9 +27,9 @@ const RestoList = {
   async afterRender() {
     const restos = await RestoSource.restoList();
     const restosContainer = document.querySelector('#restos');
-    const loading = document.querySelector('#loading-resto');
+    const loader = document.querySelector('.loader');
     if (restos.length !== 0) {
-      loading.remove();
+      loader.remove();
       restos.forEach((resto) => {
         restosContainer.innerHTML += createRestoItemTemplate(resto);
       });

@@ -55,6 +55,7 @@
 
     .resto-item .resto-item__header .resto-item__header__poster {
         height: 200px;
+        object-fit: cover;
     }
 }
 
@@ -72,7 +73,7 @@
 
 @media screen and (min-width: 850px) {
     .restos {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
