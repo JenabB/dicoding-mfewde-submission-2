@@ -1,5 +1,5 @@
-import RestoSource from '../../data/resto-source';
-import { createRestoItemTemplate } from '../templates/template-creator';
+import RestoSource from "../../data/resto-source";
+import { createRestoItemTemplate } from "../templates/template-creator";
 
 const RestoList = {
   async render() {
@@ -15,7 +15,7 @@ const RestoList = {
   </div>
       <div class="content">
         <h2 class="content__heading">Catalogue</h2>
-        <h1 id="loading-resto">Loading...</h1>
+        <h1 id="loading-resto">Loading....</h1>
         <div id="restos" class="restos">
         </div>
       </div>
@@ -26,8 +26,8 @@ const RestoList = {
 
   async afterRender() {
     const restos = await RestoSource.restoList();
-    const restosContainer = document.querySelector('#restos');
-    const loading = document.querySelector('#loading-resto');
+    const restosContainer = document.querySelector("#restos");
+    const loading = document.querySelector("#loading-resto");
     if (restos.length !== 0) {
       loading.remove();
       restos.forEach((resto) => {
